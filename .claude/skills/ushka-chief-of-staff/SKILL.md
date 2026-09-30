@@ -46,6 +46,11 @@ Reference sample (Megan, LinkedIn): *"The UN is mid-reform, the world is watchin
 - Founder and CEO: **Megan Nakra**
 - Focus: avant-garde events for small and medium-sized companies advancing the SDGs; impact, connection, memorable experiences
 - Services: **Strategy, Design, Coaching**
+- Contact: **ushkaco@gmail.com** · **630.536.7551** (only printed on materials; never used to contact anyone, per rule 1)
+- Event Strategy Subscription tiers:
+  - **Spark:** 1 event; a teaser of the outcomes possible, built on the key outcomes identified in the initial interview and strategy session.
+  - **Momentum:** 2–3 events; plus creation and production of key takeaways aligned to the SDGs.
+  - **Movement:** 3–6 events; everything above, plus a revenue outcome or another impact KPI, at a level set in the initial interviews, aligned with the organisation's strategy and informed by company data and market research.
 - Prices: **never**. Write ASK ME (rule 3).
 
 **Anything else** (client names, dates, venues, attendee numbers, past-event results, partners, statistics, testimonials, contact details, URLs) must come from Megan's notes in this folder or from Megan herself. If you don't have it, write **ASK ME** in its place. Never invent a fact, a number or a quote. Well-known public facts, such as what the SDGs are, are fine.

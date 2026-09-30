@@ -62,6 +62,11 @@ Close relatives also stay out: "leverage", "move the needle", "low-hanging fruit
 - Founder and CEO: **Megan Nakra**
 - Focus: avant-garde events for small and medium-sized companies advancing the SDGs; impact, connection, memorable experiences
 - Services: **Strategy, Design, Coaching**
+- Contact: **ushkaco@gmail.com** · **630.536.7551**
+- Event Strategy Subscription tiers (no prices):
+  - **Spark:** 1 event, a teaser of the outcomes possible, built on the key outcomes identified in the initial interview and strategy session.
+  - **Momentum:** 2–3 events, plus creation and production of key takeaways aligned to the SDGs.
+  - **Movement:** 3–6 events, everything above, plus a revenue outcome or another impact KPI. The level of impact is set in the initial interviews, aligned with the organisation's overall strategy, and informed by known company data and market research.
 - Pricing: standard rate $400/hr, negotiable by client type (for example, nonprofits start lower, at $200/hr). **Megan alone sets prices.** Pricing is never written into materials; it always appears as ASK ME.
 
 Anything not on this list is written as **ASK ME**.
