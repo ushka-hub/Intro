@@ -77,6 +77,7 @@ Before moving on, check every piece for banned words, invented facts and missing
 Read `references/sdg-graphics.md`. It maps each SDG (1–17, plus the colour wheel) to the image URL Megan has provided.
 
 - If an SDG has a URL, put it in card 5 as a Markdown image on its own line: `![SDG 2: Zero Hunger](<url>)`. Use the full official icon: never crop it, recolour it or put text on it (UN SDG icon guidelines).
+- Known issue (first test, 1 Oct 2026): with `imageOptions.source: "placeholder"`, Gamma turned the SDG icon URLs into empty image placeholders instead of loading them. Until that's solved, list in the summary which SDG icons Megan needs to drop into card 5 by hand, with their URLs.
 - If the SDG has no URL yet (`ASK ME`), put a marked space on card 5: `GRAPHIC: SDG <n> icon (<name>), add from Megan's SDG graphics`, and list it in the summary.
 
 ## Step 6. Build each carousel in Gamma
