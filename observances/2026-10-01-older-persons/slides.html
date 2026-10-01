@@ -64,6 +64,33 @@
   }
   .point p { font-size: 32px; line-height: 1.66; color: var(--body); }
   .point b { font-weight: 500; color: var(--ink); }
+
+  /* Why it matters: centred, with the SDG icon row */
+  .centered { align-items: center; text-align: center; }
+  .centered h2 { max-width: 1280px; }
+  .sdg-row { margin-top: 64px; display: flex; justify-content: center; gap: 28px; }
+  .sdg-row img {
+    width: 260px; height: 260px; border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(36, 33, 29, 0.12);
+  }
+  .sdg-notes { margin-top: 56px; display: flex; flex-direction: column; gap: 14px; }
+  .sdg-notes p { font-size: 32px; line-height: 1.5; color: var(--body); }
+  .sdg-notes b { font-weight: 500; color: var(--ink); }
+
+  /* Outro */
+  .ask { margin-top: 64px; font-size: 36px; line-height: 1.6; color: var(--cream); max-width: 1200px; }
+  .signoff {
+    position: absolute; left: 134px; bottom: 120px;
+    font-size: 22px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--sage);
+  }
+
+  /* Sources */
+  .sources { margin-top: 48px; display: flex; flex-direction: column; gap: 22px; }
+  .sources p { font-size: 26px; line-height: 1.55; color: var(--body); }
+  .disclaimer {
+    margin-top: 56px; padding-top: 36px; border-top: 1px solid rgba(168, 107, 79, 0.45);
+    font-size: 24px; line-height: 1.6; font-style: italic; color: var(--body);
+  }
 </style>
 </head>
 <body>
@@ -106,6 +133,104 @@
       <p>Health care, work, housing and retirement were designed for a country that no longer exists.</p>
     </div>
   </div>
+</section>
+
+<!-- 4 · The context -->
+<section class="slide cream" id="s4">
+  <div class="eyebrow">The context</div>
+  <h2>What’s holding us back</h2>
+  <div class="points">
+    <div class="point">
+      <h3>Ageism</h3>
+      <p>One in two people worldwide hold ageist attitudes, says the WHO. It costs older people health, income and years of life.</p>
+    </div>
+    <div class="point">
+      <h3>Systems</h3>
+      <p>Health, jobs, housing and social protection still assume a short retirement.</p>
+    </div>
+    <div class="point">
+      <h3>The global shift</h3>
+      <p>By the late 2070s, people aged 65 and over are projected to reach <b>2.2 billion</b> and outnumber children under 18.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · Why it matters -->
+<section class="slide cream centered" id="s5">
+  <div class="eyebrow">Why it matters</div>
+  <h2>Longer lives only count if they are healthy, and if everyone is included.</h2>
+  <div class="sdg-row">
+    <img src="../sdg-icons/sdg-03.png" alt="SDG 3: Good Health and Well-being">
+    <img src="../sdg-icons/sdg-10.png" alt="SDG 10: Reduced Inequalities">
+  </div>
+  <div class="sdg-notes">
+    <p><b>SDG 3:</b> healthy lives and well-being at every age.</p>
+    <p><b>SDG 10, target 10.2:</b> inclusion of all, irrespective of age.</p>
+  </div>
+</section>
+
+<!-- 6 · Solutions that work -->
+<section class="slide cream" id="s6">
+  <div class="eyebrow">Solutions that work</div>
+  <h2>It can be done.</h2>
+  <div class="points">
+    <div class="point">
+      <h3>Age-friendly states</h3>
+      <p><b>15 states and one territory</b> have joined the AARP Network of Age-Friendly States and Communities, committing to plan for every age.</p>
+    </div>
+    <div class="point">
+      <h3>Community by community</h3>
+      <p>In Maine alone, <b>98 communities</b> have signed on, from Fort Kent to Saco.</p>
+    </div>
+    <div class="point">
+      <h3>The global model</h3>
+      <p>The WHO Global Network for Age-friendly Cities and Communities gives local leaders a shared playbook.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · Call to action -->
+<section class="slide cream" id="s7">
+  <div class="eyebrow">Call to action</div>
+  <h2>Rethink the system where you stand.</h2>
+  <div class="points">
+    <div class="point">
+      <h3>Local</h3>
+      <p>Ask your city or town to join the age-friendly network. At work, hire and keep talent over 50, and pair generations as mentors.</p>
+    </div>
+    <div class="point">
+      <h3>State</h3>
+      <p>Push your governor and legislature for a state plan on ageing that covers health, housing, transport and work.</p>
+    </div>
+    <div class="point">
+      <h3>Federal</h3>
+      <p>Call your members of Congress: fund the Older Americans Act and enforce the Age Discrimination in Employment Act.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · Outro -->
+<section class="slide green" id="s8">
+  <div class="mark">U</div>
+  <div class="eyebrow">The question</div>
+  <h1>Who’s in your room?</h1>
+  <p class="ask">If the next 30 years of life are a gift, who are we designing for, and who is still missing from the table?</p>
+  <div class="theme">Message me. I’d love to connect.</div>
+  <div class="signoff">UshKa · Impact, connection, memorable experiences</div>
+</section>
+
+<!-- 9 · Sources -->
+<section class="slide cream" id="s9">
+  <div class="eyebrow">Sources</div>
+  <div class="sources">
+    <p>UN DESA, International Day of Older Persons 2026: "The Age of Longevity: Rethinking Systems for Longer Lives."</p>
+    <p>US Census Bureau, <i>Demographic Turning Points for the United States: Population Projections for 2020 to 2060</i> (P25-1144).</p>
+    <p>UN DESA, <i>World Population Prospects 2024: Key Messages.</i></p>
+    <p>World Health Organization, <i>Global Report on Ageism</i> (2021).</p>
+    <p>AARP Livable Communities, Network of Age-Friendly States and Communities.</p>
+    <p>UN General Assembly resolution 45/106 (1990), designating October 1 as the International Day of Older Persons.</p>
+  </div>
+  <p class="disclaimer">The content of this publication has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States. un.org/sustainabledevelopment</p>
 </section>
 
 </body>
