@@ -1,6 +1,6 @@
 ---
 name: un-observances-weekly
-description: Weekly UN International Observances content engine for UshKa. Each Friday it finds the United Nations international days and weeks that fall in the coming Monday–Sunday, researches each one, writes a social carousel per observance using Megan's 8-part framework (Hook with the 2026 theme, Why today, The problem, The context, Why it matters + SDGs, Call to Action at local/state/federal level, Outro), and builds each one as a draft in Gamma. Use it when Megan says "run the observances", "next week's UN days", "observance content", "International Days content", or when the Friday routine fires.
+description: Weekly UN International Observances content engine for UshKa. Each Friday it finds the United Nations international days and weeks that fall in the coming Monday–Sunday, researches each one, writes a social carousel per observance using Megan's 8-part framework (Hook with the 2026 theme, Why today, The problem, The context, Why it matters + SDGs, Solutions that work, Call to Action at local/state/federal level, Outro), and builds each one as a draft in Gamma. Use it when Megan says "run the observances", "next week's UN days", "observance content", "International Days content", or when the Friday routine fires.
 ---
 
 # UN International Observances: weekly social content
@@ -40,11 +40,12 @@ For each observance, gather and keep the source URL for every fact:
 - **The 2026 theme.** Look on the UN observance page, the lead agency's site (for example FAO for World Food Day, WHO for World Mental Health Day) and the UN News site. If no 2026 theme has been announced, use the most recent official theme and mark it `THEME: ASK ME (2026 theme not yet announced; last theme was "…")`.
 - **2–3 hard facts** for The Problem and The Context: one headline statistic from the UN, a UN agency, the World Bank, the OECD or a US federal agency (for example the CDC, EPA, BLS or Census Bureau). Every number must have a source. If you can't source a number, write **ASK ME** instead of inventing one.
 - **The SDGs it advances.** Use the primary SDGs listed in the calendar, and confirm or adjust them from the official page. Pick 1–3 SDGs, the main one first, and the most relevant SDG target (for example "Target 2.1: end hunger").
+- **1–2 solutions that work**: a proven program, policy, business practice or community model with a sourced result (for example "a city cut X by Y% after Z"). Prefer examples small and medium-sized businesses or local communities could copy. No sourced result → describe the approach and write **ASK ME** for the number.
 - **US action points** for the Call to Action: real, current levers at the **local** (city, county, school district, local business), **state** (state legislature, governor, state agency) and **federal** (Congress, a federal agency, a named federal program) levels. Prefer actions an individual or a small or medium-sized business can actually take: show up, vote, call, volunteer, buy, change a policy at work, host a conversation. Name specific bills or programs only if you found them in a source; otherwise describe the lever in general terms.
 
 ## Step 4. Write the content: the framework
 
-Each observance becomes **one 4:5 Instagram/LinkedIn carousel of 8 cards**, plus a caption. Write in Megan's voice: bold, focused, fearless. Short sentences, active verbs, sharp questions, outcomes not declarations. No banned words.
+Each observance becomes **one 4:5 Instagram/LinkedIn carousel of 9 cards** (the 8 framework parts plus a Sources card), plus a caption. Write in Megan's voice: bold, focused, fearless. Short sentences, active verbs, sharp questions, outcomes not declarations. No banned words.
 
 | Card | Framework part | What goes on it |
 |---|---|---|
@@ -53,18 +54,18 @@ Each observance becomes **one 4:5 Instagram/LinkedIn carousel of 8 cards**, plus
 | 3 | **The problem** | One sharp statement of the problem, with one sourced headline number. |
 | 4 | **The context** | What is driving it, who it hits hardest, what has been tried. 2–3 short labelled points with thin gold rules. |
 | 5 | **Why it matters: the SDGs** | Name the SDG(s) and target. Place the SDG graphic(s) (see Step 5). One line linking the problem to the goal, and one line on why it matters to small and medium-sized businesses and communities. |
-| 6 | **Call to Action: local · state · federal** | Three labelled points, `LOCAL`, `STATE`, `FEDERAL`, each one concrete action. |
-| 7 | **Outro** | A sharp question to the reader, and a direct invitation to connect, in Megan's style ("Message me. I'd love to connect."). Small sign-off: `UshKa · Impact, connection, memorable experiences`. |
-| 8 | **Sources** | Small text: the sources used, plus the SDG disclaimer: "The content of this publication has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States." and a link to https://www.un.org/sustainabledevelopment/. |
+| 6 | **Solutions that work** | 1–2 bright spots: what was done, where, and the sourced result. Short labelled points with thin gold rules. End on "It can be done." energy, not a lecture. |
+| 7 | **Call to Action: local · state · federal** | Three labelled points, `LOCAL`, `STATE`, `FEDERAL`, each one concrete action. |
+| 8 | **Outro** | A sharp question to the reader, and a direct invitation to connect, in Megan's style ("Message me. I'd love to connect."). Small sign-off: `UshKa · Impact, connection, memorable experiences`. |
+| 9 | **Sources** | Small text: the sources used, plus the SDG disclaimer: "The content of this publication has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States." and a link to https://www.un.org/sustainabledevelopment/. |
 
 Notes:
-- Megan's framework skips number 6. If Megan later adds a part, add it as a new card here and keep the order.
 - Keep each card to one strong idea: a headline plus no more than about 35 words.
 - Mark photo spaces as `PHOTO: UshKa event, [what it should show]` (Chief of Staff rule). Don't use stock photos.
 
 **Caption** (for Megan to paste when she posts it herself), 80–150 words:
 - First line: the hook.
-- 3–4 short lines covering why now, the problem and the SDG.
+- 3–4 short lines covering why now, the problem, the SDG and one solution that works.
 - The local/state/federal ask in one line.
 - A closing question and an invitation to connect.
 - 4–6 hashtags: the official one for the day (for example `#WorldFoodDay`), `#SDGs`, `#SDG<n>`, and 1–3 topical ones.
@@ -84,8 +85,8 @@ Load `mcp__Gamma__generate` with ToolSearch if needed. Make **one Gamma per obse
 
 - `format`: `"social"`
 - `cardOptions.dimensions`: `"4x5"`
-- `numCards`: `8`
-- `cardSplit`: `"inputTextBreaks"`, with the 8 cards written in full and separated by `---`
+- `numCards`: `9`
+- `cardSplit`: `"inputTextBreaks"`, with the 9 cards written in full and separated by `---`
 - `textMode`: `"preserve"`
 - `title`: `"<YYYY-MM-DD> · <Observance name> · DRAFT"`
 - `additionalInstructions`: the full Chief of Staff design instructions **plus**: `"Social carousel, 4:5 portrait. Keep the SDG icon images exactly as supplied: full size, never cropped, recoloured or covered with text. The last card is small-print sources."`
